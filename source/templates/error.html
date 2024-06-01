@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<!--
+    Minimal Application using Flask
+    By Kevin J. Figueroa M
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Example App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Share+Tech+Mono'>
+    <style>
+        html, body {
+            height: 100%;
+        }
+        body {
+            background: #351100;
+            background: radial-gradient(ellipse at center, #581111 0%, #000000 70%);
+            background-size: 100%;
+        }
+
+        h2 {
+            margin: 0;
+            padding: 0;
+            letter-spacing: 0.1em;
+            font-size: 3em;
+            padding: 20px 0 0;
+        }
+        
+        #carita {
+            font-family: "Share Tech Mono", monospace;
+            text-align: center;
+            font-size: 15em;
+            position: absolute;
+            left: 50%;
+            top: 25%;
+            transform: translate(-50%, -50%);
+            color: #ff0000;
+            text-shadow: 0 0 30px #e65e0a, 0 0 30px rgba(10, 175, 230, 0);
+        }
+
+        #text {
+            font-family: "Share Tech Mono", monospace;
+            color: #ffffff;
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            color: #ff0000;
+            text-shadow: 0 0 20px #e65e0a, 0 0 20px rgba(10, 175, 230, 0);
+        }
+        </style>
+</head>
+
+<body>
+    <div id="text">
+        <h2>No server response was reached</h2>
+    </div>
+    <div id="carita">
+        &#x2639;
+    </div>
+</body>
+</html>
+
